@@ -31,7 +31,7 @@ header {
     h1 {
         margin: 0;
         font-size: 1.2rem;
-        font-weight: $normalWeight;
+        font-weight: $boldWeight;
     }
 }
 
@@ -42,6 +42,7 @@ header {
 nav {
     ul{
         list-style-type: none;
+        font-weight: $boldWeight;
         padding: 0;
         margin: 0;
         display: flex;
@@ -73,7 +74,7 @@ footer {
     padding: 0.5rem $gutter;
     p{
         margin: 0;
-        font-weight: $normalWeight;
+        font-weight: $boldWeight;
         text-align: center;
     }
 }

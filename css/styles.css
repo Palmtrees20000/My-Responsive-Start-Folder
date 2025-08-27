@@ -376,6 +376,13 @@ nav li.active {
 nav li.active a:hover {
   background-color: #cc6800;
 }
+nav ul li.active {
+  background-color: #ff8200;
+}
+nav ul li.active a {
+  color: white;
+  font-weight: 700;
+}
 
 #footerWrapper {
   background-color: #ffc100;

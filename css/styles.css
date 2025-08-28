@@ -370,18 +370,11 @@ nav ul a {
   text-decoration: none;
 }
 nav li.active {
-  background-color: #ff8200;
+  background-color: #FFEAAE;
   color: white;
 }
 nav li.active a:hover {
-  background-color: #cc6800;
-}
-nav ul li.active {
-  background-color: #ff8200;
-}
-nav ul li.active a {
-  color: white;
-  font-weight: 700;
+  background-color: rgb(204, 154.4, 0);
 }
 
 #footerWrapper {

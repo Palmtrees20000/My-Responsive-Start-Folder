@@ -56,17 +56,10 @@ nav {
         }
     }
     li.active {
-        background-color: $primaryColor;
+        background-color: #FFEAAE;
         color: white;
         a {
-            &:hover { background-color: darken($primaryColor, 10%); }
-        }
-    }
-    ul li.active {
-        background-color: $primaryColor;
-        a {
-            color: white;
-            font-weight: $boldWeight;
+            &:hover { background-color: darken(#ffc100, 10%); }
         }
     }
 }
